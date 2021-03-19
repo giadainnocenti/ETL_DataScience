@@ -4,8 +4,7 @@
 Source: https://www.kaggle.com/andresionek/data-jobs-listings-glassdoor
 
 Datasets used for project:
-Glassdoor.csv
-Glassdoor_salaries.csv
+Glassdoor.csv, Glassdoor_salaries.csv
 
 ## Transform:
 Python was used to import, clean and merge datasets.
