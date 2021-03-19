@@ -21,4 +21,4 @@ Python was used to import, clean and merge datasets.
 *	records with null id values were removed
 
 ## Load:
-PGAdmin4 was used to create the Postgres database to store the final dataset.
+PGAdmin4 was used to create the Postgres database to store the final dataset. 
