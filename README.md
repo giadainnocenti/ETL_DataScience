@@ -25,6 +25,7 @@ In jupyter notebook, Python & Pandas were used to import, clean and merge datase
 *	Within each dataset several fields were removed based on the evaluation.
 *	Records with null id values were removed.
 * 	Column names were renamed ("." converted to "_") to satisfy Postgres.
+* 	All the numbers in the \*ID columns were set to integers.
 *	Each clean dataset was exported as csv.
 
 ## Load:
