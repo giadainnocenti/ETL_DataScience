@@ -2,6 +2,7 @@
 
 ## Team members:
 Sebastien Echeverry, Giada Innocenti, Fahar Zaheer, Amy Lang, Terri Lively, Yong Yang
+All the members of the team contributed equally in every section of the project.
 
 ## Product/Purpose:
 The final product is a simplified Postgres database of Data Scientist related jobs/positions and their associated salaries. The team collectively reviewed topics and agreed upon the idea of developing a database of data scientist related jobs and salaries. The site chosen (below) included 15 individual files and a total of 265 columns of information. Our challenge was to evaluate the columns and include only those that were relevant for a basic understanding of what jobs are available. All aspects of this project were approached as a team.
@@ -35,5 +36,6 @@ PGAdmin4 was used for the final dataset.
 *	An ERD was generated using dbdiagram.io.
 
 ## ERD Diagram:
-![](image.png)
+The ERD was created using [dbdiagram](https://dbdiagram.io/home). \
+![ERD](ERD/ETL_project (1).png)
 
