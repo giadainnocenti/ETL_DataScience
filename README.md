@@ -1,7 +1,10 @@
 # Extract, Transform, Load (ETL)
 
-## Product:
-A simplified Postgres database of Data Scientist related jobs/positions and their associated salaries.
+## Team members:
+Sebastien Echeverry, Giada Innocenti, Fahar Zaheer, Amy Lang, Terri Lively, Yong Yang
+
+## Product/Purpose:
+The final product is a simplified Postgres database of Data Scientist related jobs/positions and their associated salaries. The team collectively reviewed topics and agreed upon the idea of developing a database of data scientist related jobs and salaries. The site chosen (below) included 15 individual files and a total of 265 columns of information. Our challenge was to evaluate the columns and include only those that were relevant for a basic understanding of what jobs are available.
 
 ## Extract:
 
@@ -26,6 +29,7 @@ In jupyter notebook, Python & Pandas were used to import, clean and merge datase
 ## Load:
 PGAdmin4 was used for the final dataset. 
 *	A database and table schemas were manually created in PGAdmin4.
+*	Primary keys were created for each table.
 *	The csv files were imported into the database into respective tables.
 *	An ERD was generated.
 
