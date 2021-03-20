@@ -32,3 +32,31 @@ create table glassdoor(
 	PRIMARY KEY (id)
 	--FOREIGN KEY () REFERENCES titles()
 );
+
+create view salary_view as 
+SELECT  g.gaTrackerData_empId ,
+	g.gaTrackerData_empName ,
+	g.gaTrackerData_industry ,
+	g.gaTrackerData_jobTitle ,
+	g.gaTrackerData_location ,
+	g.gaTrackerData_locationId ,
+	g.rating_starRating ,
+	g.salary_country_id ,
+	g.salary_country_name ,
+	g.salary_currency_currencyCode ,
+	g.salary_currency_displayName ,
+	g.salary_currency_id ,
+	g.salary_currency_name ,
+	g.salary_currency_symbol ,
+	s.id ,
+	s.salary_salaries_val_payPeriod, 
+	s.salary_salaries_val_salaryPercentileMap_payPercentile10 ,
+	s.salary_salaries_val_salaryPercentileMap_payPercentile90 ,
+	s.salary_salaries_val_salaryPercentileMap_payPercentile50 
+
+FROM salary s
+LEFT JOIN glassdoor g
+  ON g.salary_salaries=s.id;
+
+Select * from salary_view;	
+	
