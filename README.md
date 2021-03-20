@@ -30,13 +30,13 @@ In jupyter notebook, Python & Pandas were used to import, clean and merge datase
 
 ## Load:
 PGAdmin4 was used for the final dataset. 
+*	An ERD was generated using [dbdiagram](https://dbdiagram.io/home).
 *	A database and table schemas were manually created in PGAdmin4.
 *	Primary keys were created for each table.
 *	The csv files were imported into the database into respective tables.
 *	A final view of all date was created by Left Joining the tables into one.
-*	An ERD was generated using dbdiagram.io.
+
 
 ## ERD Diagram:
-The ERD was created using [dbdiagram](https://dbdiagram.io/home). \
 ![ERD](https://github.com/giadainnocenti/ETL_DataScience/blob/main/ERD/ETL_project%20(1).png)
 
