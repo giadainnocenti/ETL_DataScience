@@ -37,5 +37,5 @@ PGAdmin4 was used for the final dataset.
 
 ## ERD Diagram:
 The ERD was created using [dbdiagram](https://dbdiagram.io/home). \
-![ERD]('./ERD/ETL_project (1).png')
+![ERD](https://github.com/giadainnocenti/ETL_DataScience/blob/main/ERD/ETL_project%20(1).png)
 
