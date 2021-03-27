@@ -20,7 +20,7 @@ Datasets include Glassdoor listings which were scraped for every country, using 
 * 	Glassdoor_salary_salaries.csv (columns of data 9)
 
 ## Transform:
-In jupyter notebook, Python & Pandas were used to import, clean and merge datasets.
+Jupyter notebook, Python & Pandas were used to import, clean and merge datasets.
 *	Each column in both datasets was evaluated for its usefulness and value relative to the pupose of a simplified dataset to find data scientist related jobs. 
 *	Within each dataset several fields were removed based on the evaluation.
 *	Records with null id values were removed.
