@@ -1,7 +1,7 @@
 # Extract, Transform, Load (ETL)
 
 ## Team members:
-Sebastien Echeverry, Giada Innocenti, Fahar Zaheer, Amy Lang, Terri Lively, Yong Yang
+Sebastien Echeverry, Giada Innocenti, Fahar Zaheer, Amy Lang, Terri Lively, Yong Yang.\
 All the members of the team contributed equally in every section of the project.
 
 ## Product/Purpose:
